@@ -20,6 +20,7 @@
 		B23CD2D426A767AD00FB7C7C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D326A767AD00FB7C7C /* ThirdViewController.swift */; };
 		B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D526A7737B00FB7C7C /* FourthViewController.swift */; };
 		B23CD2D826A774D700FB7C7C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D726A774D700FB7C7C /* FifthViewController.swift */; };
+		B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D926A7799100FB7C7C /* SixthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B23CD2D326A767AD00FB7C7C /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B23CD2D526A7737B00FB7C7C /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		B23CD2D726A774D700FB7C7C /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		B23CD2D926A7799100FB7C7C /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */,
 				B23CD2A226A73F4A00FB7C7C /* ViewController.swift */,
 				B23CD2A426A73F4A00FB7C7C /* Main.storyboard */,
+				B23CD2D926A7799100FB7C7C /* SixthViewController.swift */,
 				B23CD2D726A774D700FB7C7C /* FifthViewController.swift */,
 				B23CD2D526A7737B00FB7C7C /* FourthViewController.swift */,
 				B23CD2D326A767AD00FB7C7C /* ThirdViewController.swift */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23CD2A326A73F4A00FB7C7C /* ViewController.swift in Sources */,
+				B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */,
 				B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */,
 				B23CD2A926A73F4A00FB7C7C /* adaLovelaceLevel.xcdatamodeld in Sources */,
 				B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */,
