@@ -11,8 +11,9 @@ class SeventhViewController: UIViewController {
 
     var numCorrectCounter = 0
     
-    @IBOutlet weak var nextButton5: UIButton!
     
+    
+    @IBOutlet weak var nextButton5: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         correct1.isHidden = true
@@ -43,12 +44,12 @@ class SeventhViewController: UIViewController {
         if (numCorrectCounter == 1)
         {
             
-            label6.text = "There's one more bug!"
+            label6.text = "Yup, this one is missing a closing quotation, but there's still one more bug!"
             label6.isHidden = false
         }
         else if (numCorrectCounter == 2)
         {
-            label6.text = "Way to catch them all!"
+            label6.text = "Yup, this one is missing a closing quotation. Way to catch them all!"
             label6.isHidden = false
             nextButton5.isHidden = false
         }
@@ -59,13 +60,13 @@ class SeventhViewController: UIViewController {
         wrong1.isHidden = false
         if (numCorrectCounter == 0)
         {
-            label6.text = "This one is all correct!"
+            label6.text = "This one is all correct because the number of open brackets matches the number of closing brackets!"
             label6.isHidden = false
             
         }
         else if (numCorrectCounter == 1)
         {
-            label6.text = "This is not the other incorrect one!"
+            label6.text = "This is not the other incorrect one! It's all correct because the number of open brackets matches the number of closing brackets!"
             label6.isHidden = false
         }
     }
@@ -76,12 +77,12 @@ class SeventhViewController: UIViewController {
         if (numCorrectCounter == 1)
         {
             
-            label6.text = "There's one more bug!"
+            label6.text = "Yup, this code has an intention error because the if statement checks if there's more than 5 people! There's still one more bug!"
             label6.isHidden = false
         }
         else if (numCorrectCounter == 2)
         {
-            label6.text = "Way to catch them all!"
+            label6.text = "Yup, this code has an intention error because the if statement checks if there's more than 5 people! Way to catch them all!"
             label6.isHidden = false
             nextButton5.isHidden = false
         }

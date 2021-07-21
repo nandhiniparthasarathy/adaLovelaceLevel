@@ -23,6 +23,9 @@
 		B23CD2D826A774D700FB7C7C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D726A774D700FB7C7C /* FifthViewController.swift */; };
 		B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D926A7799100FB7C7C /* SixthViewController.swift */; };
 		B28066F626A86E1900CE75FE /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28066F526A86E1900CE75FE /* EighthViewController.swift */; };
+		B28066F826A8B39F00CE75FE /* NinthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28066F726A8B39F00CE75FE /* NinthViewController.swift */; };
+		B28066FA26A8B62D00CE75FE /* TenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28066F926A8B62D00CE75FE /* TenthViewController.swift */; };
+		B28066FC26A8B67000CE75FE /* EleventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28066FB26A8B67000CE75FE /* EleventhViewController.swift */; };
 		B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4986026A799B400005D09 /* SeventhViewController.swift */; };
 		C6AFF9CA26A7BF33001A7BB9 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AFF9C826A7BF33001A7BB9 /* MainMenuViewController.swift */; };
 		C6AFF9CB26A7BF33001A7BB9 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6AFF9C926A7BF33001A7BB9 /* MainMenuViewController.xib */; };
@@ -68,6 +71,9 @@
 		B23CD2D726A774D700FB7C7C /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		B23CD2D926A7799100FB7C7C /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
 		B28066F526A86E1900CE75FE /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
+		B28066F726A8B39F00CE75FE /* NinthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthViewController.swift; sourceTree = "<group>"; };
+		B28066F926A8B62D00CE75FE /* TenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthViewController.swift; sourceTree = "<group>"; };
+		B28066FB26A8B67000CE75FE /* EleventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleventhViewController.swift; sourceTree = "<group>"; };
 		B2F4986026A799B400005D09 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 		C6AFF9C826A7BF33001A7BB9 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		C6AFF9C926A7BF33001A7BB9 /* MainMenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenuViewController.xib; sourceTree = "<group>"; };
@@ -101,6 +107,9 @@
 		B23CD29226A73F4A00FB7C7C = {
 			isa = PBXGroup;
 			children = (
+				B28066FB26A8B67000CE75FE /* EleventhViewController.swift */,
+				B28066F926A8B62D00CE75FE /* TenthViewController.swift */,
+				B28066F726A8B39F00CE75FE /* NinthViewController.swift */,
 				B23CD29D26A73F4A00FB7C7C /* adaLovelaceLevel */,
 				B23CD2B726A73F4B00FB7C7C /* adaLovelaceLevelTests */,
 				B23CD2C226A73F4B00FB7C7C /* adaLovelaceLevelUITests */,
@@ -293,10 +302,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AFF9CA26A7BF33001A7BB9 /* MainMenuViewController.swift in Sources */,
+				B28066FC26A8B67000CE75FE /* EleventhViewController.swift in Sources */,
 				B23CD2A326A73F4A00FB7C7C /* ViewController.swift in Sources */,
 				A8E9F89126A79DA700DACF0D /* TimelineViewController.swift in Sources */,
 				B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */,
+				B28066F826A8B39F00CE75FE /* NinthViewController.swift in Sources */,
 				B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */,
+				B28066FA26A8B62D00CE75FE /* TenthViewController.swift in Sources */,
 				B23CD2A926A73F4A00FB7C7C /* adaLovelaceLevel.xcdatamodeld in Sources */,
 				B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */,
 				B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */,

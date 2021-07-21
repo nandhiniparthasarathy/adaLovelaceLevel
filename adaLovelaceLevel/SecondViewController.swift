@@ -9,14 +9,19 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    //could hae variable at the top of each view controller (set to false first or zero)
+    //as soon as you unlock level for the first time, set variable equal to true to permanently lock it
+    //depends on how you unlock each level
+    
     
     //still need to hide the next arrow BUTTON
     //I need some counter
     var counter = 0
     
     
-    @IBOutlet weak var nextButton1: UIButton!
+  
     
+    @IBOutlet weak var nextButton1: UIButton!
     
     
     override func viewDidLoad() {

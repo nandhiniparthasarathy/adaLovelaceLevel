@@ -11,8 +11,8 @@ class SixthViewController: UIViewController {
     
     var counter = 0
 
-    @IBOutlet weak var nextButton2: UIButton!
     
+    @IBOutlet weak var nextButton2: UIButton!
     override func viewDidLoad() {
         
         super.viewDidLoad()
