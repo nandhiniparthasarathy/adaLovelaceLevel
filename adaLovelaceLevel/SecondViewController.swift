@@ -15,7 +15,8 @@ class SecondViewController: UIViewController {
     var counter = 0
     
     
-   
+    @IBOutlet weak var nextButton1: UIButton!
+    
     
     
     override func viewDidLoad() {
@@ -26,9 +27,13 @@ class SecondViewController: UIViewController {
         robot4.isHidden = true
         robot5.isHidden = true
         robot6.isHidden = true
-        buttonCover1.isHidden = false
+        //buttonCover1.isHidden = false
 
         //Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        nextButton1.isHidden = true
     }
     
 
@@ -86,7 +91,8 @@ class SecondViewController: UIViewController {
                 robot6.isHidden = false
                 counter += 1
                 label1.text = "Congratulations on completing the level!!"
-                buttonCover1.isHidden = true
+                //buttonCover1.isHidden = true
+                nextButton1.isHidden = false
             }
         }
         

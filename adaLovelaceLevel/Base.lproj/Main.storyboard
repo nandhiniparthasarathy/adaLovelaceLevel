@@ -63,7 +63,6 @@
         <!--Second View Controller-->
         <scene sceneID="wM5-cK-1lN">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ngo-Cs-2Zh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="AAH-6P-ebU" customClass="SecondViewController" customModule="adaLovelaceLevel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tBl-cB-biL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -131,7 +130,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cGX-Og-Jas">
-                                <rect key="frame" x="341" y="815" width="53" height="46"/>
+                                <rect key="frame" x="298" y="771" width="96" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="arrowshape.turn.up.right" catalog="system"/>
                                 <connections>
@@ -146,7 +145,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ada lovelace" translatesAutoresizingMaskIntoConstraints="NO" id="GEU-4U-pmv">
-                                <rect key="frame" x="276" y="773" width="256" height="137"/>
+                                <rect key="frame" x="-30" y="770" width="256" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -156,6 +155,7 @@
                     <connections>
                         <outlet property="buttonCover1" destination="GEU-4U-pmv" id="r4f-lw-NZc"/>
                         <outlet property="label1" destination="R9h-TU-cS3" id="8Gr-lK-BSI"/>
+                        <outlet property="nextButton1" destination="cGX-Og-Jas" id="rHH-KL-Pzf"/>
                         <outlet property="robot1" destination="rSb-fL-ePs" id="8Pu-NW-QPE"/>
                         <outlet property="robot2" destination="UTF-PN-hxA" id="e1q-Cd-khU"/>
                         <outlet property="robot3" destination="V7H-oe-vuk" id="pok-Dc-nbj"/>
@@ -165,6 +165,7 @@
                         <outlet property="textField1" destination="zEm-Jl-MXz" id="tb3-sk-RXz"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ngo-Cs-2Zh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="785.50724637681162" y="77.678571428571431"/>
         </scene>
@@ -299,6 +300,9 @@
                                 <rect key="frame" x="297" y="790" width="97" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="arrowshape.turn.up.right" catalog="system"/>
+                                <connections>
+                                    <segue destination="E4b-FZ-x9I" kind="presentation" modalPresentationStyle="fullScreen" id="NHv-cZ-850"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-cropped (1)" translatesAutoresizingMaskIntoConstraints="NO" id="QSD-2N-kYe">
                                 <rect key="frame" x="230" y="44" width="164" height="135"/>
@@ -333,15 +337,65 @@
                                 <state key="normal" title="TAP TO REVEAL SOME TIPS">
                                     <color key="titleColor" red="0.24749559160000001" green="0.47592401499999998" blue="0.61570459600000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttonTapped3:" destination="hqw-Ce-afF" eventType="touchUpInside" id="Hjj-Hz-2zs"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Make sure that your number of open brackets (&quot;{&quot;) match your number of closing brackets (&quot;}&quot;)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cmx-XK-qHm">
+                                <rect key="frame" x="20" y="503" width="364" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. The number of opening quotes also has to match the number of closing quotes " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HX-qg-Grf">
+                                <rect key="frame" x="20" y="576" width="374" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. Intention errors are hard to fix, but make sure that your code is doing what you want it to! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuc-ux-B3A">
+                                <rect key="frame" x="20" y="641" width="364" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="18"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ada lovelace" translatesAutoresizingMaskIntoConstraints="NO" id="754-Fn-JDG">
+                                <rect key="frame" x="-1" y="756" width="275" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8Ch-mv-Pao"/>
                         <color key="backgroundColor" red="0.94916814569999997" green="0.97650271649999998" blue="0.9725496173" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonCover2" destination="754-Fn-JDG" id="Ipz-yW-kJP"/>
+                        <outlet property="nextButton2" destination="6Em-DV-5zc" id="xtQ-tV-Bor"/>
+                        <outlet property="tip1" destination="Cmx-XK-qHm" id="EkB-Mj-r4P"/>
+                        <outlet property="tip2" destination="9HX-qg-Grf" id="rmz-eK-Uvk"/>
+                        <outlet property="tip3" destination="wuc-ux-B3A" id="0DQ-ah-M6b"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z8O-Oh-bSJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3710.144927536232" y="90.401785714285708"/>
+        </scene>
+        <!--Seventh View Controller-->
+        <scene sceneID="GC3-Ox-Fd6">
+            <objects>
+                <viewController id="E4b-FZ-x9I" customClass="SeventhViewController" customModule="adaLovelaceLevel" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L0N-Wh-blX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XB4-ta-Qg9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZU9-wb-P9k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4478" y="113"/>
         </scene>
     </scenes>
     <resources>

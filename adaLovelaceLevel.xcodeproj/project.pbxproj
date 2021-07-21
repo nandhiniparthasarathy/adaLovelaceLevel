@@ -21,6 +21,7 @@
 		B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D526A7737B00FB7C7C /* FourthViewController.swift */; };
 		B23CD2D826A774D700FB7C7C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D726A774D700FB7C7C /* FifthViewController.swift */; };
 		B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2D926A7799100FB7C7C /* SixthViewController.swift */; };
+		B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4986026A799B400005D09 /* SeventhViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B23CD2D526A7737B00FB7C7C /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		B23CD2D726A774D700FB7C7C /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		B23CD2D926A7799100FB7C7C /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		B2F4986026A799B400005D09 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */,
 				B23CD2A226A73F4A00FB7C7C /* ViewController.swift */,
 				B23CD2A426A73F4A00FB7C7C /* Main.storyboard */,
+				B2F4986026A799B400005D09 /* SeventhViewController.swift */,
 				B23CD2D926A7799100FB7C7C /* SixthViewController.swift */,
 				B23CD2D726A774D700FB7C7C /* FifthViewController.swift */,
 				B23CD2D526A7737B00FB7C7C /* FourthViewController.swift */,
@@ -280,6 +283,7 @@
 				B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */,
 				B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */,
 				B23CD2A926A73F4A00FB7C7C /* adaLovelaceLevel.xcdatamodeld in Sources */,
+				B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */,
 				B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */,
 				B23CD2D826A774D700FB7C7C /* FifthViewController.swift in Sources */,
 				B23CD2D226A75E8C00FB7C7C /* SecondViewController.swift in Sources */,
