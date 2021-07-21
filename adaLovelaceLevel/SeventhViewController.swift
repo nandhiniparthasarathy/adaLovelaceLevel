@@ -9,13 +9,84 @@ import UIKit
 
 class SeventhViewController: UIViewController {
 
+    var numCorrectCounter = 0
+    
+    @IBOutlet weak var nextButton5: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        correct1.isHidden = true
+        correct2.isHidden = true
+        wrong1.isHidden = true
+        label6.isHidden = true
 
         // Do any additional setup after loading the view.
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        nextButton5.isHidden = true
+    }
+   
+    
+    @IBOutlet weak var correct1: UIImageView!
+    
+    @IBOutlet weak var wrong1: UIImageView!
+    
+    
+    @IBOutlet weak var correct2: UIImageView!
+    
+    @IBOutlet weak var label6: UILabel!
+    
+    @IBAction func option1Button(_ sender: Any) {
+        correct1.isHidden = false
+        numCorrectCounter += 1
+        if (numCorrectCounter == 1)
+        {
+            
+            label6.text = "There's one more bug!"
+            label6.isHidden = false
+        }
+        else if (numCorrectCounter == 2)
+        {
+            label6.text = "Way to catch them all!"
+            label6.isHidden = false
+            nextButton5.isHidden = false
+        }
+    }
+    
+    
+    @IBAction func option2Button(_ sender: Any) {
+        wrong1.isHidden = false
+        if (numCorrectCounter == 0)
+        {
+            label6.text = "This one is all correct!"
+            label6.isHidden = false
+            
+        }
+        else if (numCorrectCounter == 1)
+        {
+            label6.text = "This is not the other incorrect one!"
+            label6.isHidden = false
+        }
+    }
+    
+    @IBAction func option3Button(_ sender: Any) {
+        correct1.isHidden = false
+        numCorrectCounter += 1
+        if (numCorrectCounter == 1)
+        {
+            
+            label6.text = "There's one more bug!"
+            label6.isHidden = false
+        }
+        else if (numCorrectCounter == 2)
+        {
+            label6.text = "Way to catch them all!"
+            label6.isHidden = false
+            nextButton5.isHidden = false
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

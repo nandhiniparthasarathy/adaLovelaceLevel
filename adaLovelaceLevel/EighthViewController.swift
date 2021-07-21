@@ -1,33 +1,32 @@
 //
-//  FourthViewController.swift
+//  EighthViewController.swift
 //  adaLovelaceLevel
 //
-//  Created by Nandhini Parthasarathy on 7/20/21.
+//  Created by Nandhini Parthasarathy on 7/21/21.
 //
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class EighthViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.isNavigationBarHidden = false
+
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var katherineButton2: UIButton!
     
-    @IBOutlet weak var graceButton: UIButton!
-    @IBOutlet weak var katherineButton: UIButton!
     
-    @IBOutlet weak var JoyButton: UIButton!
+    @IBOutlet weak var joyButton2: UIButton!
     
-    @IBOutlet weak var KarlieButton: UIButton!
+    
+    @IBOutlet weak var karlieButton2: UIButton!
     
     override func viewWillAppear(_ animated: Bool) {
-        graceButton.isHidden = true
-        katherineButton.isHidden = true
-        JoyButton.isHidden = true
-        KarlieButton.isHidden = true
+        katherineButton2.isHidden = true
+        joyButton2.isHidden = true
+        karlieButton2.isHidden = true
     }
     /*
     // MARK: - Navigation
