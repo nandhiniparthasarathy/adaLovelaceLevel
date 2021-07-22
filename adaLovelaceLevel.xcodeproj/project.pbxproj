@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		A87A45DB26A8E98D0076C658 /* CameraStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */; };
 		A8E9F89126A79DA700DACF0D /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89026A79DA700DACF0D /* TimelineViewController.swift */; };
+		A8E9F89326A9D55A00DACF0D /* moreGraceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89226A9D55A00DACF0D /* moreGraceViewController.swift */; };
+		A8E9F89526A9D94D00DACF0D /* moreAdaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89426A9D94D00DACF0D /* moreAdaViewController.swift */; };
+		A8E9F89726A9DF6B00DACF0D /* moreKatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89626A9DF6B00DACF0D /* moreKatViewController.swift */; };
+		A8E9F89926A9E09100DACF0D /* moreJoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */; };
+		A8E9F89B26A9E17A00DACF0D /* moreKarlieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */; };
 		B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */; };
 		B23CD2A126A73F4A00FB7C7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */; };
 		B23CD2A326A73F4A00FB7C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2A226A73F4A00FB7C7C /* ViewController.swift */; };
@@ -60,6 +65,11 @@
 /* Begin PBXFileReference section */
 		A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraStoryboard.storyboard; sourceTree = "<group>"; };
 		A8E9F89026A79DA700DACF0D /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		A8E9F89226A9D55A00DACF0D /* moreGraceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreGraceViewController.swift; sourceTree = "<group>"; };
+		A8E9F89426A9D94D00DACF0D /* moreAdaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreAdaViewController.swift; sourceTree = "<group>"; };
+		A8E9F89626A9DF6B00DACF0D /* moreKatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreKatViewController.swift; sourceTree = "<group>"; };
+		A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreJoyViewController.swift; sourceTree = "<group>"; };
+		A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreKarlieViewController.swift; sourceTree = "<group>"; };
 		B23CD29B26A73F4A00FB7C7C /* adaLovelaceLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adaLovelaceLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,6 +166,11 @@
 				B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */,
 				B23CD2A226A73F4A00FB7C7C /* ViewController.swift */,
 				B23CD2A426A73F4A00FB7C7C /* Main.storyboard */,
+				A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */,
+				A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */,
+				A8E9F89626A9DF6B00DACF0D /* moreKatViewController.swift */,
+				A8E9F89426A9D94D00DACF0D /* moreAdaViewController.swift */,
+				A8E9F89226A9D55A00DACF0D /* moreGraceViewController.swift */,
 				B2E2B47326A9C4E500735FE4 /* Twenty2ndViewController.swift */,
 				B2E2B47126A9C49300735FE4 /* Twenty1stViewController.swift */,
 				B2E2B46F26A9C47600735FE4 /* 20thViewController.swift */,
@@ -331,12 +346,14 @@
 			files = (
 				B2E2B46C26A9B8FA00735FE4 /* FifteenthViewController.swift in Sources */,
 				C6AFF9CA26A7BF33001A7BB9 /* MainMenuViewController.swift in Sources */,
+				A8E9F89B26A9E17A00DACF0D /* moreKarlieViewController.swift in Sources */,
 				B2FB04E626A90A7600DED33F /* TwelfthViewController.swift in Sources */,
 				B2E2B47226A9C49300735FE4 /* Twenty1stViewController.swift in Sources */,
 				B28066FC26A8B67000CE75FE /* EleventhViewController.swift in Sources */,
 				B2E2B47026A9C47600735FE4 /* 20thViewController.swift in Sources */,
 				B23CD2A326A73F4A00FB7C7C /* ViewController.swift in Sources */,
 				A8E9F89126A79DA700DACF0D /* TimelineViewController.swift in Sources */,
+				A8E9F89726A9DF6B00DACF0D /* moreKatViewController.swift in Sources */,
 				B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */,
 				B28066F826A8B39F00CE75FE /* NinthViewController.swift in Sources */,
 				B2FB04E826A90DDF00DED33F /* ThirteenthViewController.swift in Sources */,
@@ -345,14 +362,17 @@
 				B2E2B46E26A9BCBE00735FE4 /* 16thViewController.swift in Sources */,
 				B2E2B47426A9C4E500735FE4 /* Twenty2ndViewController.swift in Sources */,
 				B2E2B46A26A9B3B500735FE4 /* FourteenthViewController.swift in Sources */,
+				A8E9F89526A9D94D00DACF0D /* moreAdaViewController.swift in Sources */,
 				B23CD2A926A73F4A00FB7C7C /* adaLovelaceLevel.xcdatamodeld in Sources */,
 				B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */,
 				B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */,
 				B28066F626A86E1900CE75FE /* EighthViewController.swift in Sources */,
+				A8E9F89926A9E09100DACF0D /* moreJoyViewController.swift in Sources */,
 				B23CD2D826A774D700FB7C7C /* FifthViewController.swift in Sources */,
 				B23CD2D226A75E8C00FB7C7C /* SecondViewController.swift in Sources */,
 				B23CD2D426A767AD00FB7C7C /* ThirdViewController.swift in Sources */,
 				B23CD2A126A73F4A00FB7C7C /* SceneDelegate.swift in Sources */,
+				A8E9F89326A9D55A00DACF0D /* moreGraceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

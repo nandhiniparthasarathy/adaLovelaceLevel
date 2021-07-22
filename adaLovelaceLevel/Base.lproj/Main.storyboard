@@ -165,20 +165,86 @@
             </objects>
             <point key="canvasLocation" x="583" y="734"/>
         </scene>
-        <!--View Controller-->
+        <!--moreAda View Controller-->
         <scene sceneID="q75-fG-7m8">
             <objects>
-                <viewController id="7td-Xl-1Ba" sceneMemberID="viewController">
+                <viewController title="moreAda View Controller" id="7td-Xl-1Ba" customClass="moreAdaViewController" customModule="adaLovelaceLevel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c53-EY-PAa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STz-0J-dcM">
+                                <rect key="frame" x="95" y="771" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BACK TO GAME">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="gA9-Kg-zxu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FUQ-dk-FK2">
+                                <rect key="frame" x="95" y="434" width="225" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="DETAILED BIOGRAPHY">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="myButton:" destination="7td-Xl-1Ba" eventType="touchUpInside" id="6e1-ha-gAx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C59-6A-exu">
+                                <rect key="frame" x="95" y="326" width="225" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="SHORTER BIOGRAPHY">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="detailButton:" destination="7td-Xl-1Ba" eventType="touchUpInside" id="Hba-bd-et5"/>
+                                    <action selector="myButton:" destination="7td-Xl-1Ba" eventType="touchUpInside" id="aDX-eF-6Nm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About Ada Lovelace!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNT-3C-wcr">
+                                <rect key="frame" x="29" y="74" width="357" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-cropped" translatesAutoresizingMaskIntoConstraints="NO" id="pLK-nm-ceU">
+                                <rect key="frame" x="125" y="149" width="164" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdu-P3-Beb">
+                                <rect key="frame" x="95" y="544" width="225" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="ADA'S NOTES">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="myButton:" destination="7td-Xl-1Ba" eventType="touchUpInside" id="mn4-k2-CJN"/>
+                                    <action selector="notesButton:" destination="7td-Xl-1Ba" eventType="touchUpInside" id="cb4-S0-0Dz"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BAc-T7-Hx5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9eY-xw-cB5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="958" y="-1274"/>
+            <point key="canvasLocation" x="957.97101449275374" y="-1376.7857142857142"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Gn4-Ux-1Nr">
@@ -698,18 +764,84 @@
             </objects>
             <point key="canvasLocation" x="957.97101449275374" y="77.678571428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--moreGrace View Controller-->
         <scene sceneID="n36-Iq-sNT">
             <objects>
-                <viewController id="1HO-e6-dnN" sceneMemberID="viewController">
+                <viewController title="moreGrace View Controller" id="1HO-e6-dnN" customClass="moreGraceViewController" customModule="adaLovelaceLevel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ffV-Rw-EnX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About Grace Hopper!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWH-fv-zMt">
+                                <rect key="frame" x="31" y="87" width="363" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOB-bz-nJw">
+                                <rect key="frame" x="95" y="791" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BACK TO GAME">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9lV-hY-Qa8" kind="presentation" modalPresentationStyle="fullScreen" id="Gjf-Qi-H9B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hbg-PR-4kF">
+                                <rect key="frame" x="95" y="447" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BIOGRAPHY">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bioButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="lHA-W9-twV"/>
+                                    <action selector="bioButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="zZY-K9-Xkb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3T-1n-ZaC">
+                                <rect key="frame" x="95" y="359" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="DISCOVERING BUGS">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="2cS-4p-mta"/>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="a8w-2V-But"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="VTQ-O3-c6g"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-cropped (1)" translatesAutoresizingMaskIntoConstraints="NO" id="CNS-kY-fJt">
+                                <rect key="frame" x="95" y="168" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHn-Cf-Uo8">
+                                <rect key="frame" x="95" y="552" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="HER LEGACY">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="legButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="brf-HS-ePb"/>
+                                    <action selector="legacyButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="uFh-LM-7zQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="sq6-ZP-Sd9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hso-H9-rO8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="iT7-F2-YLS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3541" y="-1298"/>
         </scene>
@@ -909,7 +1041,7 @@
                                 <rect key="frame" x="143" y="74" width="129" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="28"/>
-                                <color key="textColor" red="0.24749559160000001" green="0.47592401499999998" blue="0.61570459600000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.24705882352941178" green="0.47450980392156861" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-cropped (1)" translatesAutoresizingMaskIntoConstraints="NO" id="jef-UV-yGy">
@@ -1131,20 +1263,91 @@
             </objects>
             <point key="canvasLocation" x="5707" y="98"/>
         </scene>
-        <!--View Controller-->
+        <!--More Kat View Controller-->
         <scene sceneID="BGj-pb-BCs">
             <objects>
-                <viewController id="ehh-ey-VoQ" sceneMemberID="viewController">
+                <viewController id="ehh-ey-VoQ" customClass="moreKatViewController" customModule="adaLovelaceLevel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zUJ-XA-Kuh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About Katherine Johnson!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWa-I2-rHH">
+                                <rect key="frame" x="9" y="33" width="396" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-cropped (5)" translatesAutoresizingMaskIntoConstraints="NO" id="Xf9-II-X8H">
+                                <rect key="frame" x="125" y="148" width="164" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TL7-Ja-oja">
+                                <rect key="frame" x="95" y="423" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="HIDDEN FIGURES">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="7Xf-sv-zfH"/>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="cFw-62-WT3"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="ztL-v9-ebS"/>
+                                    <action selector="hiddenButton:" destination="hjn-oN-8FS" eventType="touchUpInside" id="Xeg-MB-ZxD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Re-Gq-aof">
+                                <rect key="frame" x="95" y="529" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="HER MEMOIR">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="DY8-YX-CdB"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="ZCi-T8-uYv"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="Ao6-wE-gKi"/>
+                                    <action selector="memButton:" destination="hjn-oN-8FS" eventType="touchUpInside" id="TNJ-g7-eyq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aC6-kA-yhY">
+                                <rect key="frame" x="95" y="318" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BIOGRAPHY">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bioButton:" destination="hjn-oN-8FS" eventType="touchUpInside" id="xSo-PJ-Y1L"/>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="cwI-ey-Saw"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="jYx-KY-glh"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="BWd-6q-6RT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMV-Rv-n5a">
+                                <rect key="frame" x="95" y="762" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BACK TO GAME">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Pmq-lk-CfN" kind="presentation" modalPresentationStyle="fullScreen" id="aLM-GC-Mfu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="WOK-ja-Zoy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o2w-TT-xPs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="hjn-oN-8FS" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="6435" y="-1284"/>
+            <point key="canvasLocation" x="6435" y="-1338"/>
         </scene>
         <!--Tenth View Controller-->
         <scene sceneID="pWZ-de-Vl0">
@@ -1163,13 +1366,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
                                 <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INSERT BIO HERE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VG9-dm-kcA">
-                                <rect key="frame" x="139" y="364" width="136" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rj-Qa-cc9">
@@ -1208,6 +1404,14 @@
                                     <segue destination="ehh-ey-VoQ" kind="presentation" modalPresentationStyle="fullScreen" id="iaV-ZG-sXL"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFz-bc-9bA">
+                                <rect key="frame" x="20" y="299" width="374" height="408"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">You might have heard of Katherine Johnson because of the amazing movie Hidden Figures about Black mathematicians in the 60’s at NASA. Katherine Johnson was a black female mathematician at NASA. She was hired to be on the West Area Computing Section at NACA (National Advisory Committee for Astronauts) and first worked on test flight data. She computed for America’s first human spaceflight! She even co-authored a research report in her department, and she was the first woman in her department to get credit for authoring! She’s most known for her calculations for the orbit mission of John Glenn. You never know if your code will bring spaceships into the sky one day!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="YMB-Tl-tC8"/>
                         <color key="backgroundColor" red="0.94916814569999997" green="0.97650271649999998" blue="0.9725496173" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -1215,7 +1419,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qed-iF-Mb4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6436" y="-608"/>
+            <point key="canvasLocation" x="6434.7826086956529" y="-608.03571428571422"/>
         </scene>
         <!--Eleventh View Controller-->
         <scene sceneID="ChZ-b5-aSN">
@@ -1521,20 +1725,90 @@
             </objects>
             <point key="canvasLocation" x="8117" y="113"/>
         </scene>
-        <!--View Controller-->
+        <!--moreJoyViewController-->
         <scene sceneID="IKt-GS-5O7">
             <objects>
-                <viewController id="t92-Jc-LXt" sceneMemberID="viewController">
+                <viewController title="moreJoyViewController" id="t92-Jc-LXt" customClass="moreJoyViewController" customModule="adaLovelaceLevel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9Dn-It-3b6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About Joy Buolamwini!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hrb-bb-lyY">
+                                <rect key="frame" x="9" y="44" width="396" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-cropped (2)" translatesAutoresizingMaskIntoConstraints="NO" id="vfY-ml-jyE">
+                                <rect key="frame" x="125" y="142" width="164" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ZA-Ya-C5p">
+                                <rect key="frame" x="72" y="440" width="278" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="POET OF CODE">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="gJH-Zh-1pQ"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="hNE-z2-2CK"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="YAD-Lw-u8L"/>
+                                    <action selector="poetButton:" destination="t92-Jc-LXt" eventType="touchUpInside" id="Nnr-cN-ZXZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlE-TB-LYM">
+                                <rect key="frame" x="72" y="564" width="278" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="TED TALK">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="SdE-Ve-Zdb"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="dB7-F3-gdf"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="epS-dd-2XK"/>
+                                    <action selector="tedButton:" destination="t92-Jc-LXt" eventType="touchUpInside" id="YOK-lW-2FO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifE-am-NVL">
+                                <rect key="frame" x="72" y="318" width="278" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="ALGORITHMIC JUSTICE LEAGUE">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="algButton:" destination="t92-Jc-LXt" eventType="touchUpInside" id="7WB-Ch-QEd"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="hHk-MH-Dwv"/>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="iPM-xc-9Rz"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="A8Z-LY-iaE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ArY-RX-FgO">
+                                <rect key="frame" x="95" y="760" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BACK TO GAME">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2ig-Uw-3we" kind="presentation" modalPresentationStyle="fullScreen" id="20V-lZ-TXX"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Hgu-CY-0cs"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pnn-rZ-is8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8735" y="-1260"/>
+            <point key="canvasLocation" x="8686.9565217391319" y="-1460.4910714285713"/>
         </scene>
         <!--Thirteenth View Controller-->
         <scene sceneID="eX2-37-Qbk">
@@ -1553,13 +1827,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="25"/>
                                 <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INSERT BIO HERE" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GY-8K-2ZT">
-                                <rect key="frame" x="140" y="334" width="136" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fB3-fZ-6su">
@@ -1598,12 +1865,12 @@
                                     <segue destination="72a-bk-Zch" kind="presentation" modalPresentationStyle="fullScreen" id="RNi-TZ-HrZ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0S-Y9-iQa">
-                                <rect key="frame" x="48" y="351" width="346" height="304"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5B-br-PCb">
+                                <rect key="frame" x="20" y="277" width="374" height="408"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">IDK WHAT THIS LEVEL 4 GAME IS GOING TO BE BUT MAYBE WE COULD HAVE THEM IDENTIFY EXAMPLES OF ALGORITHM BIAS IN AI's?? MAYBE ASK THEM TO CLICK THE DEFINITION OF THE WORD BIAS AND ALGORITHM and then click which one defines Algorithm bias AND THEN plug her Algorithmic Justice League!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <string key="text">Joy Buolamwini is the founder of the Algorithmic Justice League which strives to combat algorithmic bias in AI. She combines her love of art and AI in her poems such as “AI Ain’t I A Woman”. Joy wants to create a world in which AI is accessible for people of color. The Coded Bias documentary is a strong example of her mission. At MIT for her thesis, she identified algorithm bias in many large companies and works to spread awareness about these important issues around the world. She has even been awarded titles for her work such as Rhodes Scholar and Fulbright Fellow!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -2073,20 +2340,93 @@
             </objects>
             <point key="canvasLocation" x="10803" y="98"/>
         </scene>
-        <!--View Controller-->
+        <!--moreKarlie View Controller-->
         <scene sceneID="8RX-bh-682">
             <objects>
-                <viewController id="0GF-Zq-8qb" sceneMemberID="viewController">
+                <viewController title="moreKarlie View Controller" id="0GF-Zq-8qb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fgp-cX-dMU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learn More About Karlie Kloss!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUc-Qw-7cD">
+                                <rect key="frame" x="9" y="68" width="396" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="25"/>
+                                <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle-cropped (4)" translatesAutoresizingMaskIntoConstraints="NO" id="M5p-cM-tNX">
+                                <rect key="frame" x="125" y="153" width="164" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXG-cM-zCT">
+                                <rect key="frame" x="80" y="318" width="255" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BIOGRAPHY">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bio:" destination="ABN-D5-Toi" eventType="touchUpInside" id="1dt-zF-6fY"/>
+                                    <action selector="bioButton:" destination="ABN-D5-Toi" eventType="touchUpInside" id="0mP-MO-E1R"/>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="T6d-G9-0d5"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="esf-xz-ab1"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="gob-go-mWg"/>
+                                    <action selector="j:" destination="ABN-D5-Toi" eventType="touchUpInside" id="nx4-pz-hMZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOk-hN-h9a">
+                                <rect key="frame" x="80" y="435" width="255" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="KODE FOR KLOSSY SUMMARY">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="Us7-OX-VcR"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="vpj-A6-KMa"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="tpK-u0-dLV"/>
+                                    <action selector="kodeButton:" destination="ABN-D5-Toi" eventType="touchUpInside" id="gnU-8i-GuQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGi-PI-bn9">
+                                <rect key="frame" x="95" y="752" width="225" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BACK TO GAME">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vbR-ds-Ce6" kind="presentation" modalPresentationStyle="fullScreen" id="Wv1-dj-rg2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Iq-yX-Wgj">
+                                <rect key="frame" x="80" y="554" width="255" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.2470588235" green="0.47450980390000003" blue="0.61568627450000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="JOIN KODE FOR KLOSSY">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="bugButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="RHa-SF-52W"/>
+                                    <action selector="bugButton:" destination="1HO-e6-dnN" eventType="touchUpInside" id="mbo-b6-UVg"/>
+                                    <action selector="bugsButton:" destination="iT7-F2-YLS" eventType="touchUpInside" id="d7A-dR-YuO"/>
+                                    <action selector="joinButton:" destination="ABN-D5-Toi" eventType="touchUpInside" id="hyn-Ds-5XQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gSp-uw-fV0"/>
                         <color key="backgroundColor" red="0.90409986649999996" green="0.99039204790000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5T4-sm-E4v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ABN-D5-Toi" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="11917" y="-1284"/>
+            <point key="canvasLocation" x="11892.753623188406" y="-1377.4553571428571"/>
         </scene>
         <!--Twenty 1st View Controller-->
         <scene sceneID="SCB-bV-lFF">
@@ -2336,16 +2676,16 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="W1d-jW-eAk"/>
+        <segue reference="Wv1-dj-rg2"/>
         <segue reference="nTM-qA-8JF"/>
-        <segue reference="7xy-Qf-zLM"/>
+        <segue reference="20V-lZ-TXX"/>
         <segue reference="aXR-on-o1P"/>
-        <segue reference="ubF-7g-yzA"/>
+        <segue reference="aLM-GC-Mfu"/>
         <segue reference="iod-xr-vs8"/>
-        <segue reference="8E2-5b-tk1"/>
-        <segue reference="DJ6-zu-ThV"/>
-        <segue reference="ftI-Nk-eLb"/>
-        <segue reference="DNp-t3-ihi"/>
+        <segue reference="Gjf-Qi-H9B"/>
+        <segue reference="ADN-qh-tGo"/>
+        <segue reference="deB-xl-jKH"/>
+        <segue reference="gA9-Kg-zxu"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="508px-Cartoon_Robot.svg" width="508" height="599"/>
