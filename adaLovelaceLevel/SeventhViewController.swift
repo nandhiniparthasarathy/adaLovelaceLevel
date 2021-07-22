@@ -79,12 +79,14 @@ class SeventhViewController: UIViewController {
             
             label6.text = "Yup, this code has an intention error because the if statement checks if there's more than 5 people! There's still one more bug!"
             label6.isHidden = false
+            correct2.isHidden = false
         }
         else if (numCorrectCounter == 2)
         {
             label6.text = "Yup, this code has an intention error because the if statement checks if there's more than 5 people! Way to catch them all!"
             label6.isHidden = false
             nextButton5.isHidden = false
+            correct2.isHidden = false
         }
     }
     
