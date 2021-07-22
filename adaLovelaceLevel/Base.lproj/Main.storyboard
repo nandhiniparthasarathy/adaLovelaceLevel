@@ -1280,27 +1280,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField2:" destination="aZ1-3d-aIl" eventType="editingDidEnd" id="Tql-6G-f7z"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TYPE HERE" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tb6-fe-fFg">
                                 <rect key="frame" x="118" y="632" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField3:" destination="aZ1-3d-aIl" eventType="editingDidEnd" id="qWh-vr-ELz"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TYPE HERE" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BlN-8I-MWF">
                                 <rect key="frame" x="118" y="737" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="textField4:" destination="aZ1-3d-aIl" eventType="editingDidEnd" id="gDN-fg-AfA"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZq-um-g2R">
                                 <rect key="frame" x="239" y="510" width="59" height="33"/>
@@ -1430,7 +1421,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csg-TI-Ocq">
-                                <rect key="frame" x="19" y="259" width="118" height="115"/>
+                                <rect key="frame" x="18" y="259" width="118" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="circle-cropped (1)"/>
                                 <connections>
@@ -1443,7 +1434,7 @@
                                 <state key="normal" image="circle-cropped (1)"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hjg-u8-Zyv">
-                                <rect key="frame" x="290" y="402" width="118" height="115"/>
+                                <rect key="frame" x="289" y="402" width="118" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="circle-cropped (5)"/>
                                 <connections>
@@ -1698,7 +1689,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BQv-WJ-oho">
-                                <rect key="frame" x="20" y="256" width="118" height="115"/>
+                                <rect key="frame" x="19" y="256" width="118" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="circle-cropped (1)"/>
                                 <connections>
@@ -1706,7 +1697,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3m0-VI-0ej">
-                                <rect key="frame" x="286" y="398" width="118" height="115"/>
+                                <rect key="frame" x="285" y="398" width="118" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="circle-cropped (5)"/>
                                 <connections>
@@ -1714,7 +1705,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MNo-Gp-Pbe">
-                                <rect key="frame" x="20" y="534" width="118" height="115"/>
+                                <rect key="frame" x="19" y="534" width="118" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="circle-cropped (2)"/>
                                 <connections>
@@ -1722,7 +1713,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCv-vH-oyX">
-                                <rect key="frame" x="286" y="670" width="118" height="115"/>
+                                <rect key="frame" x="285" y="670" width="118" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="circle-cropped (4)"/>
                                 <connections>
@@ -1730,7 +1721,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3NM-PN-6Bd">
-                                <rect key="frame" x="286" y="104" width="118" height="115"/>
+                                <rect key="frame" x="285" y="104" width="118" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="circle-cropped"/>
                                 <connections>
@@ -1933,7 +1924,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="LXx-Bg-nkJ"/>
         <segue reference="7xy-Qf-zLM"/>
-        <segue reference="RNi-TZ-HrZ"/>
+        <segue reference="aXR-on-o1P"/>
         <segue reference="ubF-7g-yzA"/>
         <segue reference="iod-xr-vs8"/>
         <segue reference="8E2-5b-tk1"/>
