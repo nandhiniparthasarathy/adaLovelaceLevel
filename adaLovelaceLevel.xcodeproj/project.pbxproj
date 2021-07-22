@@ -27,6 +27,12 @@
 		B28066F826A8B39F00CE75FE /* NinthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28066F726A8B39F00CE75FE /* NinthViewController.swift */; };
 		B28066FA26A8B62D00CE75FE /* TenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28066F926A8B62D00CE75FE /* TenthViewController.swift */; };
 		B28066FC26A8B67000CE75FE /* EleventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28066FB26A8B67000CE75FE /* EleventhViewController.swift */; };
+		B2E2B46A26A9B3B500735FE4 /* FourteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2B46926A9B3B500735FE4 /* FourteenthViewController.swift */; };
+		B2E2B46C26A9B8FA00735FE4 /* FifteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2B46B26A9B8FA00735FE4 /* FifteenthViewController.swift */; };
+		B2E2B46E26A9BCBE00735FE4 /* 16thViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2B46D26A9BCBE00735FE4 /* 16thViewController.swift */; };
+		B2E2B47026A9C47600735FE4 /* 20thViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2B46F26A9C47600735FE4 /* 20thViewController.swift */; };
+		B2E2B47226A9C49300735FE4 /* Twenty1stViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2B47126A9C49300735FE4 /* Twenty1stViewController.swift */; };
+		B2E2B47426A9C4E500735FE4 /* Twenty2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E2B47326A9C4E500735FE4 /* Twenty2ndViewController.swift */; };
 		B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4986026A799B400005D09 /* SeventhViewController.swift */; };
 		B2FB04E626A90A7600DED33F /* TwelfthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB04E526A90A7600DED33F /* TwelfthViewController.swift */; };
 		B2FB04E826A90DDF00DED33F /* ThirteenthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FB04E726A90DDF00DED33F /* ThirteenthViewController.swift */; };
@@ -78,6 +84,12 @@
 		B28066F726A8B39F00CE75FE /* NinthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthViewController.swift; sourceTree = "<group>"; };
 		B28066F926A8B62D00CE75FE /* TenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenthViewController.swift; sourceTree = "<group>"; };
 		B28066FB26A8B67000CE75FE /* EleventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleventhViewController.swift; sourceTree = "<group>"; };
+		B2E2B46926A9B3B500735FE4 /* FourteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourteenthViewController.swift; sourceTree = "<group>"; };
+		B2E2B46B26A9B8FA00735FE4 /* FifteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifteenthViewController.swift; sourceTree = "<group>"; };
+		B2E2B46D26A9BCBE00735FE4 /* 16thViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 16thViewController.swift; sourceTree = "<group>"; };
+		B2E2B46F26A9C47600735FE4 /* 20thViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20thViewController.swift; sourceTree = "<group>"; };
+		B2E2B47126A9C49300735FE4 /* Twenty1stViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty1stViewController.swift; sourceTree = "<group>"; };
+		B2E2B47326A9C4E500735FE4 /* Twenty2ndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty2ndViewController.swift; sourceTree = "<group>"; };
 		B2F4986026A799B400005D09 /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 		B2FB04E526A90A7600DED33F /* TwelfthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwelfthViewController.swift; sourceTree = "<group>"; };
 		B2FB04E726A90DDF00DED33F /* ThirteenthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirteenthViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +125,7 @@
 		B23CD29226A73F4A00FB7C7C = {
 			isa = PBXGroup;
 			children = (
+				B2E2B46926A9B3B500735FE4 /* FourteenthViewController.swift */,
 				B2FB04E726A90DDF00DED33F /* ThirteenthViewController.swift */,
 				B2FB04E526A90A7600DED33F /* TwelfthViewController.swift */,
 				A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */,
@@ -143,6 +156,11 @@
 				B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */,
 				B23CD2A226A73F4A00FB7C7C /* ViewController.swift */,
 				B23CD2A426A73F4A00FB7C7C /* Main.storyboard */,
+				B2E2B47326A9C4E500735FE4 /* Twenty2ndViewController.swift */,
+				B2E2B47126A9C49300735FE4 /* Twenty1stViewController.swift */,
+				B2E2B46F26A9C47600735FE4 /* 20thViewController.swift */,
+				B2E2B46D26A9BCBE00735FE4 /* 16thViewController.swift */,
+				B2E2B46B26A9B8FA00735FE4 /* FifteenthViewController.swift */,
 				B28066F526A86E1900CE75FE /* EighthViewController.swift */,
 				C6AFF9C826A7BF33001A7BB9 /* MainMenuViewController.swift */,
 				C6AFF9C926A7BF33001A7BB9 /* MainMenuViewController.xib */,
@@ -311,9 +329,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2E2B46C26A9B8FA00735FE4 /* FifteenthViewController.swift in Sources */,
 				C6AFF9CA26A7BF33001A7BB9 /* MainMenuViewController.swift in Sources */,
 				B2FB04E626A90A7600DED33F /* TwelfthViewController.swift in Sources */,
+				B2E2B47226A9C49300735FE4 /* Twenty1stViewController.swift in Sources */,
 				B28066FC26A8B67000CE75FE /* EleventhViewController.swift in Sources */,
+				B2E2B47026A9C47600735FE4 /* 20thViewController.swift in Sources */,
 				B23CD2A326A73F4A00FB7C7C /* ViewController.swift in Sources */,
 				A8E9F89126A79DA700DACF0D /* TimelineViewController.swift in Sources */,
 				B23CD2DA26A7799100FB7C7C /* SixthViewController.swift in Sources */,
@@ -321,6 +342,9 @@
 				B2FB04E826A90DDF00DED33F /* ThirteenthViewController.swift in Sources */,
 				B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */,
 				B28066FA26A8B62D00CE75FE /* TenthViewController.swift in Sources */,
+				B2E2B46E26A9BCBE00735FE4 /* 16thViewController.swift in Sources */,
+				B2E2B47426A9C4E500735FE4 /* Twenty2ndViewController.swift in Sources */,
+				B2E2B46A26A9B3B500735FE4 /* FourteenthViewController.swift in Sources */,
 				B23CD2A926A73F4A00FB7C7C /* adaLovelaceLevel.xcdatamodeld in Sources */,
 				B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */,
 				B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */,
