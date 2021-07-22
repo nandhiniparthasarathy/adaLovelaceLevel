@@ -14,6 +14,7 @@
 		A8E9F89726A9DF6B00DACF0D /* moreKatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89626A9DF6B00DACF0D /* moreKatViewController.swift */; };
 		A8E9F89926A9E09100DACF0D /* moreJoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */; };
 		A8E9F89B26A9E17A00DACF0D /* moreKarlieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */; };
+		A8E9F89D26AA019400DACF0D /* resourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89C26AA019400DACF0D /* resourcesViewController.swift */; };
 		B23C9D5726A9E82700166044 /* Twenty3rdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C9D5626A9E82700166044 /* Twenty3rdViewController.swift */; };
 		B23C9D5926A9F5E000166044 /* Twenty4thViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C9D5826A9F5E000166044 /* Twenty4thViewController.swift */; };
 		B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */; };
@@ -72,6 +73,7 @@
 		A8E9F89626A9DF6B00DACF0D /* moreKatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreKatViewController.swift; sourceTree = "<group>"; };
 		A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreJoyViewController.swift; sourceTree = "<group>"; };
 		A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreKarlieViewController.swift; sourceTree = "<group>"; };
+		A8E9F89C26AA019400DACF0D /* resourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesViewController.swift; sourceTree = "<group>"; };
 		B23C9D5626A9E82700166044 /* Twenty3rdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty3rdViewController.swift; sourceTree = "<group>"; };
 		B23C9D5826A9F5E000166044 /* Twenty4thViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty4thViewController.swift; sourceTree = "<group>"; };
 		B23CD29B26A73F4A00FB7C7C /* adaLovelaceLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adaLovelaceLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,7 @@
 				B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */,
 				B23CD2A226A73F4A00FB7C7C /* ViewController.swift */,
 				B23CD2A426A73F4A00FB7C7C /* Main.storyboard */,
+				A8E9F89C26AA019400DACF0D /* resourcesViewController.swift */,
 				B23C9D5826A9F5E000166044 /* Twenty4thViewController.swift */,
 				B23C9D5626A9E82700166044 /* Twenty3rdViewController.swift */,
 				A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */,
@@ -368,6 +371,7 @@
 				B28066FA26A8B62D00CE75FE /* TenthViewController.swift in Sources */,
 				B2E2B46E26A9BCBE00735FE4 /* 16thViewController.swift in Sources */,
 				B2E2B47426A9C4E500735FE4 /* Twenty2ndViewController.swift in Sources */,
+				A8E9F89D26AA019400DACF0D /* resourcesViewController.swift in Sources */,
 				B2E2B46A26A9B3B500735FE4 /* FourteenthViewController.swift in Sources */,
 				A8E9F89526A9D94D00DACF0D /* moreAdaViewController.swift in Sources */,
 				B23CD2A926A73F4A00FB7C7C /* adaLovelaceLevel.xcdatamodeld in Sources */,

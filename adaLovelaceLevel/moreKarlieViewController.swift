@@ -14,18 +14,13 @@ class moreKarlieViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-   
     
-   
-    @IBAction func bio(_ sender: Any) {
+    @IBAction func bioButton(_ sender: Any) {
         let url = URL(string: "https://www.forbes.com/sites/shivaunefield/2018/05/16/karlie-kloss-wants-you-to-get-inspired-by-steam-science-technology-engineering-art-math/?sh=5334f64dfdeb")
             UIApplication.shared.open (url!)
     }
     
-    
-    
-    
-    
+ 
     @IBAction func kodeButton(_ sender: Any) {
         let url = URL(string: "https://www.nytimes.com/2018/03/16/style/karlie-kloss-kan-kode.html")
             UIApplication.shared.open (url!)

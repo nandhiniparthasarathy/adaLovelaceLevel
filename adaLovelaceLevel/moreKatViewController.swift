@@ -15,14 +15,18 @@ class moreKatViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
     @IBAction func bioButton(_ sender: Any) {
         let url = URL(string: "https://www.nasa.gov/content/katherine-johnson-biography")
             UIApplication.shared.open (url!)
     }
-    @IBAction func hiddenButton(_ sender: Any) {
+    
+    @IBAction func hidButton(_ sender: Any) {
         let url = URL(string: "http://www.hiddenfigures.com/")
             UIApplication.shared.open (url!)
     }
+   
+    
     @IBAction func memButton(_ sender: Any) {
         let url = URL(string: "https://www.amazon.com/My-Remarkable-Journey-Katherine-Johnson/dp/0062897667")
             UIApplication.shared.open (url!)
