@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A87A45DB26A8E98D0076C658 /* CameraStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */; };
 		A8E9F89126A79DA700DACF0D /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89026A79DA700DACF0D /* TimelineViewController.swift */; };
 		B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */; };
 		B23CD2A126A73F4A00FB7C7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraStoryboard.storyboard; sourceTree = "<group>"; };
 		A8E9F89026A79DA700DACF0D /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		B23CD29B26A73F4A00FB7C7C /* adaLovelaceLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adaLovelaceLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		B23CD29226A73F4A00FB7C7C = {
 			isa = PBXGroup;
 			children = (
+				A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */,
 				B28066FB26A8B67000CE75FE /* EleventhViewController.swift */,
 				B28066F926A8B62D00CE75FE /* TenthViewController.swift */,
 				B28066F726A8B39F00CE75FE /* NinthViewController.swift */,
@@ -276,6 +279,7 @@
 				C6AFF9CB26A7BF33001A7BB9 /* MainMenuViewController.xib in Resources */,
 				B23CD2AE26A73F4B00FB7C7C /* LaunchScreen.storyboard in Resources */,
 				B23CD2AB26A73F4B00FB7C7C /* Assets.xcassets in Resources */,
+				A87A45DB26A8E98D0076C658 /* CameraStoryboard.storyboard in Resources */,
 				B23CD2A626A73F4A00FB7C7C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
