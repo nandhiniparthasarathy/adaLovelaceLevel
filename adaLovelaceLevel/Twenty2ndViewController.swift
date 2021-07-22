@@ -30,6 +30,7 @@ class Twenty2ndViewController: UIViewController {
         booleanName.isHidden = true
         booleanArrow.isHidden = true
         booleanDef.isHidden = true
+        label1.isHidden = true
        
     }
     

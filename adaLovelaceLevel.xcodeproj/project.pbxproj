@@ -15,6 +15,7 @@
 		A8E9F89926A9E09100DACF0D /* moreJoyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */; };
 		A8E9F89B26A9E17A00DACF0D /* moreKarlieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */; };
 		B23C9D5726A9E82700166044 /* Twenty3rdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C9D5626A9E82700166044 /* Twenty3rdViewController.swift */; };
+		B23C9D5926A9F5E000166044 /* Twenty4thViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C9D5826A9F5E000166044 /* Twenty4thViewController.swift */; };
 		B23CD29F26A73F4A00FB7C7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */; };
 		B23CD2A126A73F4A00FB7C7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */; };
 		B23CD2A326A73F4A00FB7C7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23CD2A226A73F4A00FB7C7C /* ViewController.swift */; };
@@ -72,6 +73,7 @@
 		A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreJoyViewController.swift; sourceTree = "<group>"; };
 		A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreKarlieViewController.swift; sourceTree = "<group>"; };
 		B23C9D5626A9E82700166044 /* Twenty3rdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty3rdViewController.swift; sourceTree = "<group>"; };
+		B23C9D5826A9F5E000166044 /* Twenty4thViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Twenty4thViewController.swift; sourceTree = "<group>"; };
 		B23CD29B26A73F4A00FB7C7C /* adaLovelaceLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adaLovelaceLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */,
 				B23CD2A226A73F4A00FB7C7C /* ViewController.swift */,
 				B23CD2A426A73F4A00FB7C7C /* Main.storyboard */,
+				B23C9D5826A9F5E000166044 /* Twenty4thViewController.swift */,
 				B23C9D5626A9E82700166044 /* Twenty3rdViewController.swift */,
 				A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */,
 				A8E9F89826A9E09100DACF0D /* moreJoyViewController.swift */,
@@ -369,6 +372,7 @@
 				A8E9F89526A9D94D00DACF0D /* moreAdaViewController.swift in Sources */,
 				B23CD2A926A73F4A00FB7C7C /* adaLovelaceLevel.xcdatamodeld in Sources */,
 				B2F4986126A799B400005D09 /* SeventhViewController.swift in Sources */,
+				B23C9D5926A9F5E000166044 /* Twenty4thViewController.swift in Sources */,
 				B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */,
 				B28066F626A86E1900CE75FE /* EighthViewController.swift in Sources */,
 				A8E9F89926A9E09100DACF0D /* moreJoyViewController.swift in Sources */,
