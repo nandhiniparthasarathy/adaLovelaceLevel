@@ -77,6 +77,7 @@ class EleventhViewController: UIViewController {
             }
             else if (counter == 3)
             {
+                label1.text = "The rocket has blasted off!"
                 rocket3.isHidden = true
                 rocket4.isHidden = false
                 nextButton7.isHidden = false
@@ -142,6 +143,8 @@ class EleventhViewController: UIViewController {
                 rocket3.isHidden = true
                 rocket4.isHidden = false
                 nextButton7.isHidden = false
+                label2.text = "The rocket has blasted off!"
+
             }
         }
         else
@@ -177,6 +180,8 @@ class EleventhViewController: UIViewController {
                 rocket3.isHidden = true
                 rocket4.isHidden = false
                 nextButton7.isHidden = false
+                label3.text = "The rocket has blasted off!"
+
             }
         }
         else
