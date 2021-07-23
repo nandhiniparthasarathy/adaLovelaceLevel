@@ -20,7 +20,7 @@ class _6thViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        nextButton10.isHidden = false
+        nextButton10.isHidden = true
     }
     
 
