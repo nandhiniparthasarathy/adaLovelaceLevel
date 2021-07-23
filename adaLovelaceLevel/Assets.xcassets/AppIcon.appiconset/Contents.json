@@ -1,7 +1,6 @@
 {
   "images" : [
     {
-      "filename" : "Screen Shot 2021-07-23 at 12.21.17 PM.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
@@ -87,6 +86,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "Screen Shot 2021-07-23 at 12.21.17 PM-1.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
