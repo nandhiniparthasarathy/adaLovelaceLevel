@@ -395,7 +395,7 @@
         <scene sceneID="gZc-jA-xfo">
             <objects>
                 <viewController title="aboutViewController" id="2C1-l6-D7B" customClass="aboutViewController" customModule="adaLovelaceLevel" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="y6w-IS-h2r">
+                    <view key="view" contentMode="scaleToFill" id="y6w-IS-h2r" customClass="ADBannerView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -408,17 +408,6 @@
                                 <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIY-jM-tuJ">
-                                <rect key="frame" x="94" y="763" width="225" height="37"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="BACK TO HOMEPAGE">
-                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
-                                </state>
-                                <connections>
-                                    <segue destination="O3F-DK-YcE" kind="presentation" modalPresentationStyle="fullScreen" id="A78-qL-oxx"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDS-FT-RK2">
                                 <rect key="frame" x="5" y="125" width="400" height="400"/>
                                 <constraints>
@@ -429,22 +418,26 @@
                                 <color key="textColor" red="0.16078567499999999" green="0.1607818604" blue="0.16078442339999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fek-1l-60E">
-                                <rect key="frame" x="146.5" y="682" width="117" height="26"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fek-1l-60E">
+                                <rect key="frame" x="139" y="533" width="117" height="26"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="10"/>
                                 <state key="normal" title="Feed Back Forms">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="formButton:" destination="2C1-l6-D7B" eventType="touchUpInside" id="51x-Wb-xp3"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTr-k4-Udg">
-                                <rect key="frame" x="5" y="584" width="400" height="48"/>
-                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="27"/>
-                                <state key="normal" title="Fill Out Our Feedback Form Here!">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIY-jM-tuJ">
+                                <rect key="frame" x="85" y="619" width="225" height="37"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
+                                <state key="normal" title="BACK TO HOMEPAGE">
+                                    <color key="titleColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="fillForm:" destination="2C1-l6-D7B" eventType="touchUpInside" id="29p-xx-Fv1"/>
+                                    <segue destination="O3F-DK-YcE" kind="presentation" modalPresentationStyle="fullScreen" id="A78-qL-oxx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -459,13 +452,9 @@
                             <constraint firstItem="CVM-8G-IQe" firstAttribute="leading" secondItem="P9N-Wm-N4Q" secondAttribute="leading" constant="156.68000000000001" id="NWe-pk-cDA"/>
                             <constraint firstItem="P9N-Wm-N4Q" firstAttribute="trailing" secondItem="XDS-FT-RK2" secondAttribute="trailing" constant="8.8699999999999992" id="PYH-op-eNR"/>
                             <constraint firstItem="XDS-FT-RK2" firstAttribute="top" secondItem="CVM-8G-IQe" secondAttribute="bottom" constant="15" id="Upw-9l-GTB"/>
-                            <constraint firstItem="WTr-k4-Udg" firstAttribute="leading" secondItem="P9N-Wm-N4Q" secondAttribute="leading" constant="5.1299999999999999" id="apu-ob-JaB"/>
-                            <constraint firstItem="P9N-Wm-N4Q" firstAttribute="trailing" secondItem="WTr-k4-Udg" secondAttribute="trailing" constant="8.8699999999999992" id="cji-VV-92T"/>
                             <constraint firstItem="P9N-Wm-N4Q" firstAttribute="trailing" secondItem="JIY-jM-tuJ" secondAttribute="trailing" constant="95.159999999999997" id="fSb-5b-zVR"/>
-                            <constraint firstItem="fek-1l-60E" firstAttribute="top" secondItem="WTr-k4-Udg" secondAttribute="bottom" constant="50" id="mBd-dg-5vo"/>
                             <constraint firstItem="P9N-Wm-N4Q" firstAttribute="bottom" secondItem="JIY-jM-tuJ" secondAttribute="bottom" constant="62" id="mQh-2M-BVe"/>
                             <constraint firstItem="fek-1l-60E" firstAttribute="leading" secondItem="P9N-Wm-N4Q" secondAttribute="leading" constant="146.69" id="scZ-Q3-iT8"/>
-                            <constraint firstItem="fek-1l-60E" firstAttribute="top" secondItem="WTr-k4-Udg" secondAttribute="bottom" constant="50" id="tcV-DI-b39"/>
                             <constraint firstItem="P9N-Wm-N4Q" firstAttribute="trailing" secondItem="CVM-8G-IQe" secondAttribute="trailing" constant="157.31999999999999" id="xER-Nt-LTq"/>
                             <constraint firstItem="JIY-jM-tuJ" firstAttribute="leading" secondItem="P9N-Wm-N4Q" secondAttribute="leading" constant="93.840000000000003" id="xtc-eG-GNU"/>
                         </constraints>
@@ -3617,11 +3606,11 @@
         <segue reference="ubF-7g-yzA"/>
         <segue reference="cQ9-tT-4e8"/>
         <segue reference="Rgt-8e-d10"/>
-        <segue reference="ADN-qh-tGo"/>
+        <segue reference="DJ6-zu-ThV"/>
         <segue reference="deB-xl-jKH"/>
-        <segue reference="wpm-88-36h"/>
+        <segue reference="gA9-Kg-zxu"/>
         <segue reference="nar-NH-BAU"/>
-        <segue reference="xCH-ly-uPK"/>
+        <segue reference="A78-qL-oxx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="508px-Cartoon_Robot.svg" width="508" height="599"/>
