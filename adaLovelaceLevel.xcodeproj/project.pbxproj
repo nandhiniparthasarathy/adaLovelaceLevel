@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A87A45DB26A8E98D0076C658 /* CameraStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */; };
+		A87A45EA26AA3AE70076C658 /* aboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A45E926AA3AE70076C658 /* aboutViewController.swift */; };
 		A8E9F89126A79DA700DACF0D /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89026A79DA700DACF0D /* TimelineViewController.swift */; };
 		A8E9F89326A9D55A00DACF0D /* moreGraceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89226A9D55A00DACF0D /* moreGraceViewController.swift */; };
 		A8E9F89526A9D94D00DACF0D /* moreAdaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E9F89426A9D94D00DACF0D /* moreAdaViewController.swift */; };
@@ -67,6 +68,7 @@
 
 /* Begin PBXFileReference section */
 		A87A45DA26A8E98D0076C658 /* CameraStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraStoryboard.storyboard; sourceTree = "<group>"; };
+		A87A45E926AA3AE70076C658 /* aboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutViewController.swift; sourceTree = "<group>"; };
 		A8E9F89026A79DA700DACF0D /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		A8E9F89226A9D55A00DACF0D /* moreGraceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreGraceViewController.swift; sourceTree = "<group>"; };
 		A8E9F89426A9D94D00DACF0D /* moreAdaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreAdaViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A87A45DC26AA1A080076C658 /* forms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = forms;
+			sourceTree = "<group>";
+		};
 		B23CD29226A73F4A00FB7C7C = {
 			isa = PBXGroup;
 			children = (
@@ -168,11 +177,13 @@
 		B23CD29D26A73F4A00FB7C7C /* adaLovelaceLevel */ = {
 			isa = PBXGroup;
 			children = (
+				A87A45DC26AA1A080076C658 /* forms */,
 				B23CD29E26A73F4A00FB7C7C /* AppDelegate.swift */,
 				B23CD2A026A73F4A00FB7C7C /* SceneDelegate.swift */,
 				B23CD2A226A73F4A00FB7C7C /* ViewController.swift */,
 				B23CD2A426A73F4A00FB7C7C /* Main.storyboard */,
 				A8E9F89C26AA019400DACF0D /* resourcesViewController.swift */,
+				A87A45E926AA3AE70076C658 /* aboutViewController.swift */,
 				B23C9D5826A9F5E000166044 /* Twenty4thViewController.swift */,
 				B23C9D5626A9E82700166044 /* Twenty3rdViewController.swift */,
 				A8E9F89A26A9E17A00DACF0D /* moreKarlieViewController.swift */,
@@ -379,6 +390,7 @@
 				B23C9D5926A9F5E000166044 /* Twenty4thViewController.swift in Sources */,
 				B23CD2D626A7737B00FB7C7C /* FourthViewController.swift in Sources */,
 				B28066F626A86E1900CE75FE /* EighthViewController.swift in Sources */,
+				A87A45EA26AA3AE70076C658 /* aboutViewController.swift in Sources */,
 				A8E9F89926A9E09100DACF0D /* moreJoyViewController.swift in Sources */,
 				B23CD2D826A774D700FB7C7C /* FifthViewController.swift in Sources */,
 				B23CD2D226A75E8C00FB7C7C /* SecondViewController.swift in Sources */,
